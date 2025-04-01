@@ -5,5 +5,36 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="DailyPlanner.MainWindow"
         Title="DailyPlanner">
-    Welcome to Avalonia!
+        
+        <Grid HorizontalAlignment="Center" Width="200" Height="400">
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+        </Grid>
+        
+
 </Window>
