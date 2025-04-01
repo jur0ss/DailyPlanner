@@ -6,7 +6,7 @@
         x:Class="DailyPlanner.MainWindow"
         Title="DailyPlanner">
         
-        <Grid HorizontalAlignment="Center" Width="200" Height="400">
+        <Grid HorizontalAlignment="Center" Height="400">
                 <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
@@ -19,6 +19,18 @@
                         <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 
+                <TextBlock Grid.Row="0" Grid.Column="0" FontSize="20" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,0,0,20">Planer dnia</TextBlock>
+                
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Podaj nazwę zadania:" Margin="10"></TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="TextBoxTaskName" ></TextBox>
+                
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Kategoria zadania:" Margin="15"></TextBlock>
+                <ComboBox Grid.Row="2" Grid.Column="1" Margin="5" Name="CategoryCombo">
+                        <ComboBoxItem Content="Praca"/>
+                        <ComboBoxItem Content="Relaks"/>
+                        <ComboBoxItem Content="Zakupy"/>
+                        <ComboBoxItem Content="Hobby"/>
+                </ComboBox>
                 
                 
                 
