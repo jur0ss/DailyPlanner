@@ -30,7 +30,10 @@
                         <ComboBoxItem Content="Relaks"/>
                         <ComboBoxItem Content="Zakupy"/>
                         <ComboBoxItem Content="Hobby"/>
+                        <ComboBoxItem Content="Socjalizacja"/>
                 </ComboBox>
+                
+                <Button Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center">Dodaj </Button>
                 
                 
                 
