@@ -13,6 +13,9 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
@@ -33,7 +36,13 @@
                         <ComboBoxItem Content="Socjalizacja"/>
                 </ComboBox>
                 
-                <Button Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center">Dodaj </Button>
+                <Button Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Name="SubmitButton">Dodaj </Button>
+                
+                
+                <TextBlock Grid.Row="4" Grid.ColumnSpan="2" Text="Lista zadań" FontSize="20" Margin="0,40,0,0" HorizontalAlignment="Center"></TextBlock>
+                
+                <TextBlock Grid.Row="5" Margin="10" Text="Tu będą zadania" Grid.ColumnSpan="2" HorizontalAlignment="Center"></TextBlock>
+                
                 
                 
                 
