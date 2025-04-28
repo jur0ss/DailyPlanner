@@ -6,9 +6,10 @@
         x:Class="DailyPlanner.MainWindow"
         Title="DailyPlanner">
         
-        <StackPanel>
+
                 <Grid HorizontalAlignment="Center" Height="400">
                         <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
@@ -42,18 +43,22 @@
                         
                         <TextBlock Grid.Row="4" Grid.ColumnSpan="2" Text="Lista zadań" FontSize="20" Margin="0,40,0,0" HorizontalAlignment="Center"></TextBlock>
                         
-                        <TextBlock Grid.Row="5" Margin="10" Text="Tu będą zadania" Grid.ColumnSpan="2" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock Grid.Row="5" Margin="5" Grid.Column="0" Text="Nazwa zadania: "></TextBlock>
+                        
+                        <TextBlock Grid.Row="6" Grid.Column="0" Text="Zmień kategorię zadania" VerticalAlignment="Center"></TextBlock>
+                        <ComboBox Grid.Row="6" Grid.Column="1" HorizontalAlignment="Center"></ComboBox>
+                        
+                        <TextBlock Grid.Row="7" Grid.Column="0" Text="Czy ukończone?" VerticalAlignment="Center" ></TextBlock>
+                        <CheckBox Grid.Row="7" Grid.Column="1"></CheckBox>
+                        
+                        <Button Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center">Usuń zadanie</Button>
                         
                         
                 </Grid>
                 
-                <Grid>
-                        
-                </Grid>
                 
                 
-                
-        </StackPanel>
+
 
         
 
