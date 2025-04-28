@@ -15,14 +15,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DailyPlanner
-build_property.ProjectDir = C:\Users\jurek\RiderProjects\DailyPlanner\DailyPlanner\
+build_property.ProjectDir = /home/jurekg1/RiderProjects/DailyPlanner/DailyPlanner/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/jurek/RiderProjects/DailyPlanner/DailyPlanner/App.axaml]
+[/home/jurekg1/RiderProjects/DailyPlanner/DailyPlanner/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/jurek/RiderProjects/DailyPlanner/DailyPlanner/MainWindow.axaml]
+[/home/jurekg1/RiderProjects/DailyPlanner/DailyPlanner/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -1426,19 +1426,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jurek\\.nuget\\packages\\": {}
+    "/home/jurekg1/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jurek\\RiderProjects\\DailyPlanner\\DailyPlanner\\DailyPlanner.csproj",
+      "projectUniqueName": "/home/jurekg1/RiderProjects/DailyPlanner/DailyPlanner/DailyPlanner.csproj",
       "projectName": "DailyPlanner",
-      "projectPath": "C:\\Users\\jurek\\RiderProjects\\DailyPlanner\\DailyPlanner\\DailyPlanner.csproj",
-      "packagesPath": "C:\\Users\\jurek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jurek\\RiderProjects\\DailyPlanner\\DailyPlanner\\obj\\",
+      "projectPath": "/home/jurekg1/RiderProjects/DailyPlanner/DailyPlanner/DailyPlanner.csproj",
+      "packagesPath": "/home/jurekg1/.nuget/packages/",
+      "outputPath": "/home/jurekg1/RiderProjects/DailyPlanner/DailyPlanner/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jurek\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/jurekg1/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -1505,7 +1505,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\jurek\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/jurekg1/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
